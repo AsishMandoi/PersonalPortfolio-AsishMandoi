@@ -17,8 +17,8 @@ export const Footer = () => {
           <Container>
             <div className="root-container">
               <div>
-                <h2>{name}</h2>
-                <span>© All rights are reserved | {new Date().getFullYear()} </span>
+                {/* <h2>{name}</h2> */}
+                <span>© {new Date().getFullYear()} Asish Mandoi | All rights reserved.</span>
 
                 <div className="powered">
                   <p>Powered By</p>

@@ -66,6 +66,7 @@ export const Projects = () => {
           </Item>
         ))}
       </Grid>
+      <h4><br /><br /><br />More coming soon...</h4>
     </Wrapper>
   );
 };
