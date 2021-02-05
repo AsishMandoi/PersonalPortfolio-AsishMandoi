@@ -12,7 +12,7 @@ app.use(cors())
 app.use(bodyParser.json())
 
 app.get('/', (_, res) => {
-    res.send('Hello from the profile backend!')
+    res.send("Hi there! You're looking at the backend of Asish's profile.")
 })
 
 app.get('/entries', (_, res) => {
